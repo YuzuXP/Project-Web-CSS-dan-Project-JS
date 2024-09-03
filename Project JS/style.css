@@ -1,0 +1,74 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}     
+ h1,h2,p { 
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+ }
+  nav {
+    background-color: rgba(0, 0, 0, 0.822);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px rgba(255, 0, 0, 0);
+  }
+   nav ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+   }
+
+  nav ul li a:hover {
+    border-bottom: 1px solid red;
+    color: red;
+
+  }
+  
+  .Firstname {
+    font-size: x-large;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    
+  }
+  .Secondname {
+  font-size: x-large;
+  font-weight: 700;
+  color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  
+  }
+  .brand {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+@media only screen and (max-width : 768px){
+ nav ul  {
+  flex-direction: column;
+ }
+}
